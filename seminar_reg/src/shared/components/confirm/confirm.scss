@@ -1,0 +1,23 @@
+.confirm {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    font-style: italic;
+  }
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__heading {
+    
+  }
+  &__check {
+
+  }
+  &__btn {
+
+  }
+}

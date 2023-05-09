@@ -1,0 +1,21 @@
+.attendants {
+	&__wrapper {
+		font-style: italic;
+	}
+	&__header {
+		display: inline-block;
+		// flex-direction: row;
+		// align-items: center;
+		// justify-content: flex-start;
+	}
+	&__entry {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 5px 0;
+
+		&-label {
+			margin-right: 10px;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.info {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    font-style: italic;
+  }
+  &__heading{
+
+  }
+  &__company,
+  &__spAccm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-weight: 600;
+  }
+}

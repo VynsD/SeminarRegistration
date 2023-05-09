@@ -1,0 +1,35 @@
+.card {
+  &__wrapper {
+    position: relative;
+  }
+  
+  &__step {
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: var(--white-def);
+  }
+  
+  &__content {
+    height: max-content;
+    min-height: 150px;
+    margin: 10px;
+
+    &--green {
+      background-color: var(--green-light);
+    }
+    &--blue {
+      background-color: var(--blue-light);
+    }
+    &--orange {
+      background-color: var(--red-light);
+    }
+  }
+  
+  &__children {
+    padding: 30px 10px 10px;
+  }
+}
